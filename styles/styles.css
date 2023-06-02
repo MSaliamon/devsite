@@ -3,10 +3,14 @@ body {
 }
 .header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 1440px;
     height: 760px;
     background-image: url(../img/Bg.png);
+}
+.header-nav {
+    display: flex;
+    flex-direction: row;
 }
 .logo {
     margin-left: 160px;
@@ -78,6 +82,8 @@ body {
     color: #FFFFFF;
 }
 .header-btn {
+    margin-top: 24px;
+    margin-left: 30px;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -104,4 +110,354 @@ body {
     font-size: 12px;
     line-height: 15px;
     color: #FFFFFF;
+}
+.header-text1 {
+    margin-left: 160px;
+    margin-top: 279px;
+    width: 743px;
+    height: 112px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.header-text2 {
+    margin-left: 160px;
+    margin-top: 16px;
+    width: 743px;
+    height: 48px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.66;
+}
+.header-container {
+    margin-left: 160px;
+    margin-top: 152px;
+    gap: 16px;
+    display: flex;
+    flex-direction: row;
+}
+.header-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px 32px 24px 32px;
+    width: 211.2px;
+    height: 128px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), rgba(13, 44, 89, 0.3);
+    box-shadow: 0px 11px 38px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.5px);
+    border-radius: 10px;
+    z-index: 100;
+}
+.header-container1-apple {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.header-container1-apple-img {
+    margin-top: 15px;
+    width: 24px;
+    height: 24px;
+}
+.header-container1-apple-text {
+    width: 163px;
+    height: 56px;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.header-container1-text {
+    margin-top: 8px;
+    width: 163.2px;
+    height: 32px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.34;
+}
+.header-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px 32px 24px 32px;
+    width: 211.2px;
+    height: 128px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), rgba(13, 44, 89, 0.3);
+    box-shadow: 0px 11px 38px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.5px);
+    border-radius: 10px;
+    z-index: 100;
+}
+.header-container2-google {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.header-container2-google-img {
+    margin-top: 15px;
+    width: 24px;
+    height: 24px;
+}
+.header-container2-google-text {
+    width: 163px;
+    height: 56px;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.header-container2-text {
+    margin-top: 8px;
+    width: 163.2px;
+    height: 32px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.34;
+}
+.header-container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px 32px 24px 32px;
+    width: 211.2px;
+    height: 128px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), rgba(13, 44, 89, 0.3);
+    box-shadow: 0px 11px 38px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.5px);
+    border-radius: 10px;
+    z-index: 100;
+}
+.header-container3-intel {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.header-container3-intel-img {
+    margin-top: 15px;
+    width: 24px;
+    height: 24px;
+}
+.header-container3-intel-text {
+    width: 163px;
+    height: 56px;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.header-container3-text {
+    margin-top: 8px;
+    width: 163.2px;
+    height: 32px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.34;
+}
+.header-container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px 32px 24px 32px;
+    width: 211.2px;
+    height: 128px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), rgba(13, 44, 89, 0.3);
+    box-shadow: 0px 11px 38px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.5px);
+    border-radius: 10px;
+    z-index: 100;
+}
+.header-container4-air-bnb1 {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.header-container4-air-bnb1-img {
+    margin-top: 15px;
+    width: 24px;
+    height: 24px;
+}
+.header-container4-air-bnb1-text {
+    width: 163px;
+    height: 56px;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.header-container4-text {
+    margin-top: 8px;
+    width: 163.2px;
+    height: 32px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.34;
+}
+.header-container5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px 32px 24px 32px;
+    width: 211.2px;
+    height: 128px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), rgba(13, 44, 89, 0.3);
+    box-shadow: 0px 11px 38px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.5px);
+    border-radius: 10px;
+    z-index: 100;
+}
+.header-container5-air-bnb2 {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.header-container5-air-bnb2-img {
+    margin-top: 15px;
+    width: 24px;
+    height: 24px;
+}
+.header-container5-air-bnb2-text {
+    width: 163px;
+    height: 56px;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.header-container5-text {
+    margin-top: 8px;
+    width: 163.2px;
+    height: 32px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.34;
+}
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 144px 160px 72px;
+    gap: 64px;
+    position: absolute;
+    width: 1440px;
+    height: 1176px;
+    top: 760px;
+    background: #041329;
+}
+.section1-title {
+    width: 206px;
+    height: 40px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.section1-text1 {
+    margin-top: -55px;
+    width: 1120px;
+    height: 96px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.3;
+}
+.section1-container1 {
+    margin-left: 150px;
+    margin-top: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 96px 64px;
+    gap: 96px;
+    width: 1120px;
+    height: 272px;
+    background: #0D2C59;
+    box-shadow: 0px 11px 38px rgba(0, 0, 0, 0.1);
+}
+.section1-container1-box1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: -35px;
+    gap: 8px;
+}
+.section1-container1-box1-title {
+    width: 289px;
+    height: 64px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.section1-container1-box1-text1 {
+    width: 457px;
+    height: 48px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.3;
+}
+.section1-container1-box1-text2 {
+    width: 40px;
+    height: 24px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #A294EF;
 }
