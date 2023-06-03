@@ -1126,8 +1126,211 @@ body {
 .section5 {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
     width: 1440px;
     height: 736px;
     background: #0F1D31;
+}
+.section5-container1 {
+    margin-left: 160px;
+    margin-top: 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1120px;
+    height: 40px;
+}
+.section5-container1-text1 {
+    width: 1121px;
+    height: 40px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.section5-container1-text2 {
+    width: 62px;
+    height: 20px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #ABE5F2;
+}
+.section5-container2-box {
+    display: flex;
+    flex-direction: row;
+    padding-left: 179px;
+    padding-top: 304px;
+    margin-top: 40px;
+    margin-left: 160px;
+    width: 544.5px;
+    height: 512px;
+    background: url(../img/Rectangle-24.png);
+    border-radius: 8px;
+}
+.section5-container2-box-text {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 16px;
+    width: 350px;
+    height: 192px;
+    background: #041329;
+    border-radius: 11px;
+}
+.section5-container2-box-text1 {
+    width: 318px;
+    height: 48px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.section5-container2-box-text2 {
+    width: 318px;
+    height: 48px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+.section5-container2-box-text3 {
+    width: 256.25px;
+    height: 24px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.section5-container2-box2 {
+    display: flex;
+    flex-direction: row;
+}
+.section5-container2-box2-1 {
+    margin-left: 31px;
+    margin-top: -300px;
+}
+.section5-container2-box2-1-wr-img1 {
+    display: flex;
+    flex-direction: row;
+}
+.section5-container2-box2-text-1 {
+    padding-top: 40px;
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 272.25px;
+    height: 248px;
+}
+.section5-container2-box2-text1 {
+    width: 224.25px;
+    height: 48px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.section5-container2-box2-text2 {
+    margin-top: 8px;
+    width: 224.25px;
+    height: 72px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+.section5-container2-box2-text3 {
+    width: 256.25px;
+    height: 24px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.section5-container2-box2-1-wr-img2 {
+    display: flex;
+    flex-direction: row;
+}
+.section5-container2-box2-text-2 {
+    padding-top: 40px;
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 272.25px;
+    height: 248px;
+}
+.section5-container2-box2-text1-2 {
+    width: 224.25px;
+    height: 48px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.section5-container2-box2-text2-2 {
+    margin-top: 8px;
+    width: 224.25px;
+    height: 72px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+.section5-container2-box2-text3-2 {
+    width: 256.25px;
+    height: 24px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.footer {
+    padding-top: 47px;
+    padding-left: 160px;
+    margin-top: -30px;
+    background: #041329;
+    width: 1440px;
+    height: 426px;
+}
+.footer-logo {
+    width: 49px;
+    height: 32px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
 }
