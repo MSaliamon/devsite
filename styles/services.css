@@ -1,0 +1,113 @@
+body {
+    max-width: 1440px;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 760px;
+    background-image: url(../img/Bg.png);
+}
+.header-nav {
+    display: flex;
+    flex-direction: row;
+}
+.logo {
+    margin-left: 160px;
+    margin-top: 30px;
+    width: 47px;
+    height: 32px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.nav-list {
+    margin-top: 34px;
+    margin-left: 409px;
+    display: flex;
+    flex-direction: row;
+    gap: 53px;
+}
+.nav-list-item1 {
+    width: 53px;
+    height: 24px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.nav-list-item2 {
+    width: 52px;
+    height: 24px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.nav-list-item3 {
+    width: 29px;
+    height: 24px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.nav-list-item4 {
+    width: 101px;
+    height: 24px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.nav-list-item5 {
+    width: 18px;
+    height: 24px;
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.header-btn {
+    margin-top: 24px;
+    margin-left: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 32px 6px 28px;
+    gap: 8px;
+    width: 160px;
+    height: 43px;
+    border: 1px solid #7DF5CA;
+    border-radius: 23px;
+}
+.header-btn-img {
+    width: 12px;
+    height: 12px;
+}
+.header-btn-text {
+    margin-top: 5px;
+    width: 80px;
+    height: 20px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
