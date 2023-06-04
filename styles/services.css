@@ -5,8 +5,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 1440px;
-    height: 760px;
-    background-image: url(../img/Bg.png);
+    height: 592px;
+    background-image: url(../img/services/Bg.png);
 }
 .header-nav {
     display: flex;
@@ -110,4 +110,29 @@ body {
     font-size: 12px;
     line-height: 15px;
     color: #FFFFFF;
+}
+.header-title {
+    margin-top: 200px;
+    margin-left: 160px;
+    width: 743px;
+    height: 56px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.header-text {
+    margin-top: 16px;
+    margin-left: 160px;
+    width: 535px;
+    height: 72px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.4;
 }
