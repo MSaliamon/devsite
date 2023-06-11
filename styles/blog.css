@@ -136,3 +136,36 @@ body {
     color: #FFFFFF;
     opacity: 0.4;
 }
+.section1 {
+    width: 1440px;
+    height: 1870px;
+    background: #0F1D31;
+}
+.section1-container1 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.section1-contain1 {
+    display: flex;
+    flex-direction: row;
+    gap: 31px;
+    padding-left: 160px;
+    padding-top: 104px;
+}
+.section1-contain1-box1 {
+    background: url(../img/blog/Rectangle\ 24.png);
+    padding-top: 304px;
+    padding-left: 179px;
+    width: 545px;
+    height: 512px;
+}
+.section1-contain1-box1-textbox {
+    padding: 16px 24px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 192px;
+    background: #041329;
+    border-radius: 11px;
+}
